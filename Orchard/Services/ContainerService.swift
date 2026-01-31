@@ -5,7 +5,7 @@ import AppKit
 
 @MainActor
 class ContainerService: ObservableObject {
-    let supportedContainerVersion = "0.7.1"
+    let supportedContainerVersion = "0.8.0"
 
     @Published var containers: [Container] = []
     @Published var images: [ContainerImage] = []
