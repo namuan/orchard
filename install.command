@@ -93,7 +93,7 @@ fi
 APP_PATH="${APP_CANDIDATES[0]}"
 
 # Define destination in Applications folder
-DEST_DIR="/Applications"
+DEST_DIR="$HOME/Applications"
 FINAL_APP_PATH="$DEST_DIR/Orchard.app"
 
 # Check if the application is already installed
